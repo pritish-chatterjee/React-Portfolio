@@ -24,7 +24,7 @@ export default function Project() {
   return (
     <main className="bg-gray-300 min-h-screen p-12">
       <section className="conatiner mx-auto ">
-        <h1 className="text-5xl flex justify-center">My Project</h1>
+        <h1 className="text-5xl flex justify-center">My Projects</h1>
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">
           Welcome to my projects page
         </h2>
@@ -48,7 +48,7 @@ export default function Project() {
                     {new Date(project.date).toLocaleDateString()}
                   </span>
                   <span>
-                    <strong className="font-bold">Comapny</strong>:{" "}
+                    <strong className="font-bold">Location</strong>:{" "}
                     {project.place}
                   </span>
                   <span>
@@ -62,11 +62,11 @@ export default function Project() {
                     href={project.link}
                     rel="noopener noreferrer"
                     target="_blank"
-                    className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
+                    className="text-red-900 font-bold hover:underline hover:text-red-700 text-xl"
                   >
                     View The Project{" "}
                     <span role="img" aria-label="right pointer">
-                      👉🏼
+                      🔗
                     </span>
                   </a>
                 </div>
