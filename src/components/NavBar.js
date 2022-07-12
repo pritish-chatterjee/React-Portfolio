@@ -59,6 +59,21 @@ export default function NavBar() {
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
+          <a
+            href="https://drive.google.com/file/d/1r9PTT8-8uKUzaM8F1zZUbJ7ogsqd-1lT/view?usp=sharing"
+            target="blank"
+          >
+            <img
+              src="resume.svg"
+              alt="resume-link"
+              style={{
+                height: 30,
+                width: 30,
+                marginTop: "3px",
+                filter: "invert(100%)",
+              }}
+            ></img>
+          </a>
         </div>
       </div>
     </header>
