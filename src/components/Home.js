@@ -3,14 +3,14 @@ import image from "../bg.jpeg";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-screen h-screen relative">
       <img
         src={image}
         alt="Background"
-        className="filter blur absolute object-cover w-full h-full"
+        className="filter blur absolute object-cover h-screen w-screen"
       />
-      <section className="relative flex flex-col justify-center min-h-screen pt-12 lg:pt-64 px-8">
-        <h1 className="text-6xl font-bold text-white leading-none lg:leading-snug home-name">
+      <section className="absolute flex flex-col justify-center  pt-20 lg:pt-64 px-8 w-screen h-screen">
+        <h1 className="text-5xl font-bold text-white leading-none lg:leading-snug home-name">
           Hello. Welcome to my website.
         </h1>
         <a
@@ -24,6 +24,7 @@ export default function Home() {
               width: "200px",
               height: "50px",
               borderRadius: "50px",
+              marginTop: "20px",
             }}
           >
             Link to Resume
